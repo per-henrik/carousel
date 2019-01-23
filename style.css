@@ -50,6 +50,7 @@ a:hover {
   white-space: nowrap;
   margin: 70.3125px 0;
   padding-bottom: 10px;
+  text-align:center;
 }
 .tile {
   position: relative;
@@ -123,7 +124,7 @@ a:hover {
           transform: translate3d(-62.5px, 0, 0);
 }
 .row__inner:hover .tile {
-  opacity: 0.3;
+  opacity: 0.3; 
 }
 .row__inner:hover .tile:hover {
   -webkit-transform: scale(1.5);
